@@ -1,2 +1,8 @@
 #!/bin/bash
-parallel --xapply "./Plan\ eucledien -n {2} -i {3} -d {1}" ::: 1.435 1.435 1.435 1.436 1.436 1.436 ::: 100000000000 1000000000000 10000000000 ::: 10 1 100
+#./Plan\ eucledien -n 1000 -d 1.43635 -i 1000
+#./Plan\ eucledien -n 10000 -d 1.43635 -i 1000
+#./Plan\ eucledien -n 100000 -d 1.43635 -i 1000
+./Plan\ eucledien -n 1000000 -d 1.43635 -i 500
+./Plan\ eucledien -n 10000000 -d 1.43635 -i 200
+./Plan\ eucledien -n 100000000 -d 1.43635 -i 100
+./Plan\ eucledien -n 1000000000 -d 1.43635 -i 50
